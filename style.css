@@ -12,6 +12,14 @@ nav {
   width: 30vw;
   flex-wrap: wrap;
   display: flex;
+  position: relative;
+}
+
+.fix {
+  position: fixed;
+  min-height: 80vw;
+  margin: 5px;
+  margin-right: 70%;
 }
 
 main {
@@ -34,5 +42,6 @@ footer {
 }
 
 div {
-  margin: 5px
+  margin: 5px;
+  padding: 10px;
 }
